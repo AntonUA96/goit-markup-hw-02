@@ -4,61 +4,66 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title lang="en">WebStudio</title>
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
 
   <body>
     <header>
       <nav>
-        <a href="/index.html" lang="en">Web Studio</a>
+        <a class="logo" href="/index.html" lang="en">
+          Web <span class="logo-span">Studio</span>
+        </a>
         <ul>
-          <li><a href="">Студия</a></li>
-          <li><a href="">Портфолио</a></li>
-          <li><a href="">Контакты</a></li>
+          <li><a class="navigation" href="">Студия</a></li>
+          <li><a class="navigation" href="portfolio.html">Портфолио</a></li>
+          <li><a class="navigation" href="">Контакты</a></li>
         </ul>
         <ul>
           <li>
-            <a href="mailto:antonkushnir96@gmail.com">
+            <a class="header-contacts" href="mailto:antonkushnir96@gmail.com">
               anton.kushnir96@gmail.com
             </a>
           </li>
           <li>
-            <a href="tel:+3800664897811">+3800664897811</a>
+            <a class="header-contacts" href="tel:+3800664897811"
+              >+3800664897811</a
+            >
           </li>
         </ul>
       </nav>
     </header>
     <main>
       <section>
-        <h1>Эффективное решение для вашего бизнеса</h1>
-        <button>Заказать услугу</button>
+        <h1 class="hero-title">Эффективное решение для вашего бизнеса</h1>
+        <button class="primery-button">Заказать услугу</button>
       </section>
       <section>
         <h2 hidden>О нас</h2>
         <ul>
           <li>
-            <h3>Внимание к деталям</h3>
-            <p>
+            <h3 class="title-about-us">Внимание к деталям</h3>
+            <p class="text-about-us">
               Идейные соображения, а также начало повседневной работы по
               формированию позиции.
             </p>
           </li>
           <li>
-            <h3>Пунктуальность</h3>
-            <p>
+            <h3 class="title-about-us">Пунктуальность</h3>
+            <p class="text-about-us">
               Задача организации, в особенности же рамки и место обучения кадров
               влечет за собой.
             </p>
           </li>
           <li>
-            <h3>Планирование</h3>
-            <p>
+            <h3 class="title-about-us">Планирование</h3>
+            <p class="text-about-us">
               Равным образом консультация с широким активом в значительной
               степени обуславливает.
             </p>
           </li>
           <li>
-            <h3>Современные технологии</h3>
-            <p>
+            <h3 class="title-about-us">Современные технологии</h3>
+            <p class="text-about-us">
               Значимость этих проблем настолько очевидна, что реализация
               плановых заданий.
             </p>
@@ -66,7 +71,7 @@
         </ul>
       </section>
       <section>
-        <h2>Чем мы занимаемся</h2>
+        <h2 class="main-title">Чем мы занимаемся</h2>
         <ul>
           <li>
             <img
@@ -75,7 +80,7 @@
               width="370"
               height="295"
             />
-            <p>Десктопные приложения</p>
+            <p class="title-services">Десктопные приложения</p>
           </li>
           <li>
             <img
@@ -84,7 +89,7 @@
               width="370"
               height="295"
             />
-            <p>Мобильные приложения</p>
+            <p class="title-services">Мобильные приложения</p>
           </li>
           <li>
             <img
@@ -93,12 +98,12 @@
               width="370"
               height="295"
             />
-            <p>Дизайнерские приложения</p>
+            <p class="title-services">Дизайнерские приложения</p>
           </li>
         </ul>
       </section>
       <section>
-        <h2>Наша команда</h2>
+        <h2 class="main-title">Наша команда</h2>
         <ul>
           <li>
             <img
@@ -107,8 +112,8 @@
               width="270"
               height="260"
             />
-            <h3>Николай Кучеренко</h3>
-            <p lang="en">Product Designer</p>
+            <h3 class="name">Николай Кучеренко</h3>
+            <p class="profession" lang="en">Product Designer</p>
             <ul>
               <li>
                 <a href="" aria-label="инстаграм-иконка"></a>
@@ -131,8 +136,8 @@
               width="270"
               height="260"
             />
-            <h3>Ольга Иванова</h3>
-            <p lang="en">Frontend Developer</p>
+            <h3 class="name">Ольга Иванова</h3>
+            <p class="profession" lang="en">Frontend Developer</p>
             <ul>
               <li>
                 <a href="" aria-label="инстаграм-иконка"></a>
@@ -155,8 +160,8 @@
               width="270"
               height="260"
             />
-            <h3>Андрей Шевченко</h3>
-            <p lang="en">Marketing</p>
+            <h3 class="name">Андрей Шевченко</h3>
+            <p class="profession" lang="en">Marketing</p>
             <ul>
               <li>
                 <a href="" aria-label="инстаграм-иконка"></a>
@@ -179,8 +184,8 @@
               width="270"
               height="260"
             />
-            <h3>Иван Николаев</h3>
-            <p lang="en">UI Designer</p>
+            <h3 class="name">Иван Николаев</h3>
+            <p class="profession" lang="en">UI Designer</p>
             <ul>
               <li>
                 <a href="" aria-label="инстаграм-иконка"></a>
@@ -199,7 +204,7 @@
         </ul>
       </section>
       <section>
-        <h2>Постоянные клиенты</h2>
+        <h2 class="main-title">Постоянные клиенты</h2>
         <ul>
           <li>
             <a href=""><img src="./image/Client1.svg" alt="лого1" /></a>
@@ -224,27 +229,33 @@
     </main>
     <footer>
       <div>
-        <a href="/index.html" lang="en">Web Studio</a>
+        <a class="logo" href="/index.html" lang="en">
+          Web <span class="logo-span"> Studio </span>
+        </a>
         <ul>
           <li>
             <address>
-              <a href="">г. Киев, пр-т Леси Украинки, 26</a>
+              <a class="city-address" href=""
+                >г. Киев, пр-т Леси Украинки, 26</a
+              >
             </address>
           </li>
           <li>
             <address>
-              <a href="mailto:">info@example.com</a>
+              <a class="footer-contacts" href="mailto:">info@example.com</a>
             </address>
           </li>
           <li>
             <address>
-              <a href="tel:+380991111111">+38 099 111 11 11</a>
+              <a class="footer-contacts" href="tel:+380991111111"
+                >+38 099 111 11 11</a
+              >
             </address>
           </li>
         </ul>
       </div>
       <div>
-        <b>Присоединяйтесь</b>
+        <b class="join-in">Присоединяйтесь</b>
         <ul>
           <li>
             <a href=""
