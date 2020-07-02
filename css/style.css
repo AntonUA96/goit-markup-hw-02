@@ -4,7 +4,7 @@
   --white-color: #ffffff;
   --hover-color: #2196f3;
   --title-text-color: #757575;
-  --footer-contacts-color: rgba (255, 255, 255, 0, 6);
+  --footer-contacts-color: rgba(255, 255, 255, 0.6);
   --footer-background-color: #2f303a;
   --section-background-color: #f5f4fa;
 }
