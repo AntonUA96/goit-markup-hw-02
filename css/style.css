@@ -9,15 +9,41 @@
   --section-background-color: #f5f4fa;
 }
 
+body {
+  font-family: roboto, sans-serif;
+  letter-spacing: 0.03em;
+  background-color: var(--white-color);
+}
+a {
+  text-decoration: none;
+}
+
+.list {
+  list-style-type: none;
+}
+/* ЛОГО */
+
 .logo {
   color: var(--hover-color);
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
 }
+
 .logo-span {
   color: var(--secondary-text-color);
 }
 
+/* НАВИГАЦИЯ */
+
 .navigation {
   color: var(--secondary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .navigation:hover,
@@ -25,8 +51,14 @@
   color: var(--hover-color);
 }
 
+/* КОНТАКТЫ ШАПКИ */
+
 .header-contacts {
   color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .header-contacts:hover,
@@ -34,65 +66,148 @@
   color: var(--hover-color);
 }
 
+/* ГЛАВНЫЙ ЗАГОЛОВОК */
+
 .hero-title {
   color: var(--white-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
+
+/* ГЛАВНАЯ КНОПКА */
+
+.primery-button {
+  color: var(--white-color);
+  background-color: var(--hover-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+/* О НАС */
 
 .title-about-us {
   color: var(--primery-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
 }
 
 .text-about-us {
   color: var(--title-text-color);
+  font-size: 14px;
+  line-height: 1.71;
 }
 
-.primery-button {
-  color: var(--white-color);
-}
+/* ЗАГОЛОВКИ СТРАНИЦЫ */
 
 .main-title {
   color: var(--primery-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
 }
+
+/* ПОДЗАГОЛОВКИ */
 
 .title-services {
   color: var(--white-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  text-transform: uppercase;
 }
+
+/* ИМЕНА КОМАНДЫ */
 
 .name {
   color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
 }
+
+/* ДОЛЖНОСТИ КОМАНДЫ */
 
 .profession {
   color: var(--title-text-color);
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
 }
+
+/* АДРЕС В ФУТЕРЕ */
 
 .city-address {
   color: var(--white-color);
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
 }
+/* КОНТАКТЫ В ФУТЕРЕ */
 
 .footer-contacts {
   color: var(--footer-contacts-color);
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
 }
 
 .join-in {
   color: var(--white-color);
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
 }
+
+/* ПОРТФОЛИО */
+
+/* КНОПКИ-ФИЛЬТРЫ */
 
 .secondary-button {
   color: var(--primary-text-color);
+  background-color: var(--section-background-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
 }
+
 .secondary-button:hover,
 .secondary-button:focus {
   color: var(--white-color);
+  background-color: var(--hover-color);
 }
+/* ЗАГОЛОВОК */
 
 .portfolio-section {
   color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2.25;
 }
 
 .portfolio-description {
   color: var(--title-text-color);
+  font-size: 16px;
+  line-height: 1.88;
 }
 .detailed-description {
   color: var(--white-color);
+  font-size: 18px;
+  line-height: 1.6;
 }
